@@ -27,7 +27,7 @@ public class Words {
         List<String> wordBank = new ArrayList<>();
         try {
             // Open file for reading
-            File wordFile = new File("/Users/bdoug/Desktop/Year Up Stuff/YU ASSIGNMENTS/WordleGame/src/words");
+            File wordFile = new File("./words");                            // Put your file path here
             Scanner reader = new Scanner(wordFile);
             // While the next line is not null
             while (reader.hasNextLine()) {
@@ -52,7 +52,7 @@ public class Words {
         List<String> answers = new ArrayList<>();
         try {
             // Open file for reading
-            File wordFile = new File("/Users/bdoug/Desktop/Year Up Stuff/YU ASSIGNMENTS/WordleGame/src/answers");
+            File wordFile = new File("./answers");                            // Put your file path here
             Scanner reader = new Scanner(wordFile);
             // While the next line is not null
             while (reader.hasNextLine()) {
