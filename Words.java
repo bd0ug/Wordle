@@ -9,7 +9,7 @@ public class Words {
     /**
      * This method returns a random word from the word bank
      */
-    public static String Word() {
+    public static String GenerateWord() {
         Random rand = new Random();
         List<String> wordBank = Answers();
 
