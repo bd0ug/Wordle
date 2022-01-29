@@ -7,7 +7,7 @@ public class PlayWordle {
         int tries = 5;
 
         // Split word into an array of letters
-        word = Words.Word();
+        word = Words.GenerateWord();
         List<String> acceptableAnswers = Words.ValidWords();                           // User can only enter valid words of the English language
         String[] wordList =  word.split("");
         String[] guessList = {"_", "_", "_", "_", "_"};
