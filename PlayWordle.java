@@ -4,7 +4,7 @@ public class PlayWordle {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String word, guess = "";
-        int tries = 5;
+        int tries = 6;
 
         // Split word into an array of letters
         word = Words.GenerateWord();
